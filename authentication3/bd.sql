@@ -1,0 +1,12 @@
+CREATE DATABASE users_db;
+
+USE users_db;
+
+
+CREATE TABLE users1
+(
+  id INT(11) UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+  login VARCHAR(100) UNIQUE,
+  pass VARCHAR(32),
+  name VARCHAR(50)
+);
